@@ -1,0 +1,115 @@
+.productCard {
+  background-color: #fde8cf;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px,
+    rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+  color: var(--teal);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px,
+    rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+}
+
+.image {
+  width: 100%;
+  background-color: var(--teal);
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.productCard div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.rating {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.rating img {
+  height: 1.1rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: 0.4rem;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--teal);
+  background-color: var(--beige);
+  border: 1px solid var(--teal);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: var(--teal);
+  color: var(--beige);
+  border-color: var(--clay);
+}
+
+.quantityCont {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  align-self: center;
+}
+
+.quantityCont button {
+  cursor: pointer;
+  padding: 0.2rem;
+  background-color: var(--beige);
+  border: 1px solid var(--teal);
+  border-radius: 4px;
+  height: 20px;
+  transition: all 0.2s ease;
+}
+
+.quantityCont button:hover {
+  background-color: #ebe6de;
+  transform: scale(1.05);
+}
+
+.quantityCont button img {
+  height: 100%;
+}
+
+.quantityCont span {
+  color: var(--teal);
+  font-size: 1rem;
+  border: 1px solid var(--green);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 767px) {
+}
